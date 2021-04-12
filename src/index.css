@@ -5,9 +5,262 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #15610e;
 }
 
+.usefulLinks {
+  padding:20px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+h3 {
+  color: #558c50;
+  opacity: 0.6;
+  font-size: 15px;
+  margin: 0;
+}
+
+.covidBtn {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+
+}
+.construction {
+  margin-top: 100px;
+}
+
+h2 {
+  color: #558c50;
+
+  text-align: center;
+  margin-top: 100px;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+
+
+}
+
+a{
+  margin: 20px 20px;
+  color: white;
+  
+}
+
+a:hover {
+  opacity: 0.6;
+  color:white;
+}
+
+
+
+.stat {
+  font-weight: 5px;
+}
+.recentActivities {
+  animation: fadeInAnimation ease 1s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  
+  margin-bottom: 50px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#logo {
+  width: 110px;
+  margin: auto;
+}
+
+.progressDiv {
+  text-align: center;
+  margin: 20px 0 10px 0;
+  animation: fadeInAnimation ease 1s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+
+}
+
+h3 {
+  animation: fadeInAnimation ease 1s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+.mind {
+  color:#fefefe;
+}
+.counterPrefix {
+  margin-top: 15px;
+  font-size: 12px;
+}
+.marq {
+  width: 180px;
+  margin: auto;
+}
+.line {
+  height: 1px;
+  border: solid 1px white;
+
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  opacity: 0.2;
+  width: 400px;
+}
+
+h1 {
+  color: #558b50;
+  height: 25px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0 0 20px 0 ; 
+  text-transform: uppercase;
+  /* border: solid 1px; */
+  margin:auto;
+  margin-bottom: 25px;
+  border-color: #fefefe;
+  width: 365px;
+  border-radius: 2px;
+  cursor: default;
+
+}
+
+span {
+  color: white;
+  opacity: 0.6;
+}
+
+.mind:hover {
+  text-decoration: underline;
+  color: #fefefe;
+}
+.App {
+  padding : 40px 0;
+  max-height: 100%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+  } 
+}
+
+
+.buttonsDiv  {
+  margin: 50px auto;
+  width:100%;
+  animation: fadeInAnimation ease 1s; 
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+  text-align: center;
+}
+
+.ui.btn {
+  margin: 10px 10px;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  top: 0px;
+  display: block;
+
+}
+
+             
+.loader {
+  margin-top: 80px;
+}
+
+.activityDiv {
+  margin: auto;
+
+}
+
+
+.logoDiv {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+
+
+}
+.item {
+  display: inline-block;
+  margin: auto;
+}
+
+.footerMenu {
+  width: 100px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 850px) {
+  .App {
+    width: 90%;
+  }
+  #logo {
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .ui.btn {
+    margin: 10px 10px;
+  }
+  .buttonsDiv {
+    margin: 20px 0;
+  }
+  h1 {
+    font-size: 16px;
+    width: 300px;
+  }
+  .line {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .activityDiv {
+    padding-top: 12px;
+  }
+  /* .footer {
+    position: relative;
+    
+  } */
+}
+/* 
+@media only screen and (max-height: 680px) {
+  .footer {
+    position: relative;
+  }
+} */
+
+/* @media only screen and (max-height: 836px) and (max-width: 767) {
+  .footer {
+    position: fixed;
+  }
+} */
